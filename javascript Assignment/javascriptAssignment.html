@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol Answers="1">
+        <li>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.<br>
+            JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved.<br>
+             It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area,etc.</li><br><br>
+
+             <li>isNaN() is a function property of the global object. For number values, isNaN() tests if the number is the value NaN . When the argument to the isNaN() function is not of type Number, the value is first coerced to a number, and the resulting value is then compared against NaN.<br>
+                -In JavaScript, NaN is short for "Not-a-Number".<br>
+
+                -In JavaScript, NaN is a number that is not a legal number.<br>
+                
+                -The Number.isNaN() method returns true if the value is NaN, and the type is a Number.</li><br><br>
+
+                <li>NEGATIVE_INFINITY is a special numeric value that is returned when an arithmetic operation or mathematical function generates a negative value greater than the largest representable number in JavaScript (i.e., more negative than -Number. MAX_VALUE).<br>
+                    - JavaScript displays the NEGATIVE_INFINITY value as -Infinity.<br>
+                    - The negative infinity in JavaScript is a constant value that is used to represent a value that is the lowest available. This means that no other number is lesser than this value.</li><br><br>
+
+                    <li>JavaScript was invented by Brendan Eich in 1995. It was developed for Netscape 2, and became the ECMA-262 standard in 1997.<br> After Netscape handed JavaScript over to ECMA, the Mozilla foundation continued to develop JavaScript for the Firefox browser. <br>Mozilla's latest version was 1.8.5.</li><br><br>
+
+                    <li>Undeclared: It occurs when we try to access any variable that is not initialized or declared earlier using the var or const keyword. If we use ‘typeof’ operator to get the value of an undeclared variable, we will face the runtime error with the return value as “undefined”. The scope of the undeclared variables is always global.<br>
+                        Undefined: It occurs when a variable has been declared but has not been assigned any value.Undefined is not a keyword.</li><br><br>
+
+                    <li>Javascript is a very important language when it comes to learning how the browser works. Often there are times we would like to add dynamic elements/content to our web pages. 
+
+                        Creation of new element: New elements can be created in JS by using the createElement() method. <br> 
+                        
+                        Syntax:<br> 
+                        
+                        document.createElement("<tagName>"); <br> 
+                        // Where <tagName> can be any HTML <br> 
+                        // tagName like div, ul, button, etc.<br> 
+                        
+                        // newDiv element has been created
+                        For Eg: let newDiv = document.createElement("div");</li><br><br>
+
+
+                        <li>The Difference between ViewState and SessionState are as follows;<br><br>
+                            ->Viewstate is a client-side mechanism for managing state. <br>Viewstate is a specific type of data that only applies to the page where it is utilised.<br>
+
+                            It saves the data on the same page in encrypted format. Information that you want to access from the same web page is stored in ViewState.<br> ViewState of one page cannot be accessed directly from another page. <br>If you want to access a specific ViewState value, you can store it in the Context collection and then access it from another page.<br>
+                            Only page level maintenance.
+                            Only one page, not several pages, can display the view state.
+                            When a new page is loaded, ViewState values are lost or cleared.<br><br>
+                            
+                            ->Session State is a method for managing server-side state. When a new client first interacts with a Web application, a session ID is generated and associated with all subsequent requests from the same client for the duration of the session. It is used mainly for storing user specific data [session specific data]. The session value can be used for the whole session until the session expires or the user closes the session. The session value in accessible on all the pages.
+
+                            When it comes to storing data on a browser, session storage is a popular option. It allows developers to save and retrieve various values.<br>
+                             Session storage, as opposed to local storage, only keeps data for a single session. When the user closes the browser window, the data is cleared.<br>
+                            
+                            <br>The SessionState will be cleared if the following conditions are met:<br>
+                            
+                            Cleared by the programmer
+                            Cleared by the user
+                            Cleared when Timeout occurs
+
+                        </li><br><br>
+
+                        <li>The === operator means "is exactly equal to," matching by both value and data type.
+                             The identity operator checks whether two operands are “identical”.<br>
+                            
+                            ->These rules determine whether two values are identical:<br><br>
+                            
+                            -They have to have the same type.<br>
+                            -If number values have the same value they are identical, unless one or both are NaN.<br>
+                            -If string values have the same value they are identical, unless the strings differ in length or content.<br>
+                            -If both values refer to the same object, array or function they are identical.<br>
+                            -If both values are null or undefined they are identical.</li><br><br>
+
+
+                        <li>To change all classes for an element:<br><br>
+
+                            ->To replace all existing classes with one or more new classes, set the className attribute: document.getElementById("MyElement").className = "MyClass"; (You can use a space-delimited list to apply multiple classes.)
+                        </li><br><br>
+
+
+                        <li>To read and write a file using javascript are as follows;<br><br>
+
+                            -file=fopen(getScriptPath(),0); The function fread() is used for reading the file content.<br>
+                            -str = fread(file,flength(file) ; The function fwrite() is used to write the contents to the file.<br>
+                            -file = fopen("c:\MyFile.txt", 3);// opens the file for writing.</li><br><br>
+
+
+                            <li>JavaScript supports different kinds of loops:<br><br>
+
+                               - for - loops through a block of code a number of times<br>
+                               - for/in - loops through the properties of an object<br>
+                               - for/of - loops through the values of an iterable object<br>
+                               - while - loops through a block of code while a specified condition is true<br>
+                               - do/while - also loops through a block of code while a specified condition is true</li><br><br>
+
+                               <li>Given a string containing an integer value and along with that user passes a base value. We need to convert that string of any base value to an integer in JavaScript.<br><br>
+
+                                String"1002"<br>         Integer1002<br>
+                                               
+                               <br> For performing the above-illustrated task, we would be using a method (or a function) provided by JavaScript called as parseInt().<br> 
+                                
+                                This is a special method, provided by JavaScript, that takes an integer value (of any base which is either specified or not) and further converts the string into an integer value.<br><br>
+                               
+                               - Following is the syntax that a user may use to convert a string into an integer value (of any base)-<br><br>
+                            
+
+                                             parseInt(string_value, base)</li><br><br>
+
+
+
+          <li>The delete operator removes a property from an object. If the property's value is an object and there are no more references to the object, the object held by that property is eventually released automatically</li><br><br>
+          
+          
+          <li>In Javascript, popup boxes are used to display the message or notification to the user.
+            <br><br> -There are three types of pop-up boxes in JavaScript namely Alert Box, Confirm Box and Prompt Box.
+       <br><br>1>Alert Box: It is used when a warning message is needed to be produced. When the alert box is displayed to the user, the user needs to press ok and proceed.<br><br>
+      2>Confirm Box: It is a type of pop-up box that is used to get authorization or permission from the user. The user has to press the ok or cancel button to proceed.<br><br>
+      3>Prompt Box: It is a type of pop up box which is used to get the user input for further use. After entering the required details user have to click ok to proceed next stage else by pressing the cancel button user returns the null value,etc.</li><br><br>
+
+
+      <li>JavaScript void 0 means returning undefined (void) as a primitive value. You might come across the term “JavaScript:void(0)” while going through HTML documents. It is used to prevent any side effects caused while inserting an expression in a web page.For example, in the case of URL hyperlinks.</li><br><br>
+
+
+      <li>We can use window.location property inside the script tag to forcefully load another page in Javascript. It is a reference to a Location object that is it represents the current location of the document. We can change the URL of a window by accessing it.
+         </li><br><br>
+
+
+         <li>The disadvantages of using innerHTML in JavaScript are as follows:<br><br>
+
+            -Inner HTML is slow because when we use the inner HTML property in the code it allows us to change using the JavaScript language.It is very slow because as inner HTML already parses the content even we have to parse the content again so that’s why it takes time.<br>
+            -Event handlers attached to any DOM element are preserved.<br>
+            -Replacement is done everywhere.<br>
+            -It is not possible to append innerHTML.<br>
+            -Breaks the document.<br>
+            -Used for Cross-site Scripting.</li><br><br>
+
+
+                       
+                        
+    </ol>
+</body>
+</html>
